@@ -6,8 +6,8 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FILE = os.path.join(BASE_DIR, "data", "tools.json")
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
-OUTPUT_DIR = os.path.join(BASE_DIR, "output")
-SITE_URL = "https://ai-coding-tools.pages.dev"
+OUTPUT_DIR = os.path.join(BASE_DIR, "docs")
+SITE_URL = "https://lovelk3999-hub.github.io/ai-coding-assistant-comparison"
 UPDATED = datetime.now().strftime("%Y-%m-%d")
 
 with open(DATA_FILE, "r", encoding="utf-8") as f:

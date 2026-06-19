@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lovelk3999-hub.github.io/ai-coding-assistant-comparison/sitemap.xml
