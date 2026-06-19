@@ -117,7 +117,7 @@ def generate_index():
         faq_items = ",\n".join(f'    {{"@type": "Question", "name": {json.dumps(f["q"])}, "acceptedAnswer": {{"@type": "Answer", "text": {json.dumps(f["a"])}}}}}' for f in faq_data)
         faq_schema = f'<script type="application/ld+json">\n{{\n  "@context": "https://schema.org",\n  "@type": "FAQPage",\n  "mainEntity": [\n{faq_items}\n  ]\n}}\n</script>'
     
-    return render_page("AI Video Tool Pricing Comparison 2026 - Independent Guide", content, faq_schema=faq_schema)
+    return render_page("AI Coding Tools Pricing Comparison 2026 - Independent Guide", content, faq_schema=faq_schema)
 
 def generate_tool_page(t):
     plan_boxes = ""
@@ -148,7 +148,7 @@ def generate_tool_page(t):
         compare_section += f'<div class="compare-pair"><h3><a href="/compare/{t["id"]}-{other["id"]}/">{t["name"]} vs {other["name"]}</a></h3></div>'
     
         # YouTube Videos section
-    video_section = ""
+    tutorial_section = ""
     ys = t.get("youtube_official", [])
     if isinstance(ys, list) and len(ys) > 0:
         embeds = []
@@ -158,7 +158,7 @@ def generate_tool_page(t):
             vt = v.get("title", "")
             h1 = '<div style="margin-bottom:16px;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;"><iframe src="https://www.youtube.com/embed/' + vi + '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allowfullscreen></iframe></div><p style="font-size:13px;color:#64748b;margin-top:4px;">Official: ' + vt + '</p></div>'
             embeds.append(h1)
-        video_section = '<h2 style="margin-top:32px;">Official Video</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:16px 0;">' + ''.join(embeds) + '</div>'
+        tutorial_section = '<h2 style="margin-top:32px;">Tutorials & Demos</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:16px 0;">' + ''.join(embeds) + '</div>'
     
     # Reddit discussions section
     reddit_section = ""
@@ -184,7 +184,7 @@ def generate_tool_page(t):
     <div class="plan-grid">{plan_boxes}</div>
     <h2 style="margin-top:32px;">✨ Key Features</h2>
     <div class="table-container"><table><thead><tr><th>Feature</th><th>Details</th></tr></thead><tbody>{feature_rows}</tbody></table></div>
-        {video_section}
+        {tutorial_section}
     {f'<div style="background:#f8fafc;border-radius:8px;padding:16px;margin:16px 0;border-left:4px solid #f59e0b;"><strong>G2 Rating:</strong> {t.get("g2_rating","N/A")}/5 <span style="color:#64748b;font-size:13px;">({t.get("g2_reviews","N/A")} reviews)</span></div>' if t.get("g2_rating") else ''}
     {reddit_section}
     <h2 style="margin-top:32px;">⚖️ Compare with Alternatives</h2>
@@ -259,9 +259,9 @@ def generate_compare_page(tool_a, tool_b):
     </div>
     <p style="margin-top:24px;"><a href="/" class="btn btn-secondary">← Back to All Tools</a></p>
 </div>"""
-    return render_page(f"{a['name']} vs {b['name']} 2026 - Pricing, Features & Verdict", content, path=f"/compare/{a['id']}-{b['id']}/", desc=f"Compare {a['name']} vs {b['name']}: pricing, features, plans, and AI video generation capabilities.")
+    return render_page(f"{a['name']} vs {b['name']} 2026 - Pricing, Features & Verdict", content, path=f"/compare/{a['id']}-{b['id']}/", desc=f"Compare {a['name']} vs {b['name']}: pricing, features, plans, and AI coding capabilities.")
 
-def render_page(title, content, path='/', desc='AI video generation tools compared: pricing, plans, features, and user reviews for 17 platforms including Sora, Runway, Pika, Kling, HeyGen and more.', faq_schema=''):
+def render_page(title, content, path='/', desc='Compare pricing, features, ratings, and capabilities of the top 15 AI coding assistants. Find the perfect tool for your development workflow.', faq_schema=''):
     nav = render_nav()
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -341,7 +341,7 @@ def render_page(title, content, path='/', desc='AI video generation tools compar
     {content}
     <footer>
         <div class="container">
-            <p>© 2026 AI Video Tools Comparison. Independent comparison of AI video creation platforms.</p>
+            <p>© 2026 AI Coding Tools Comparison. Independent comparison of AI coding assistant platforms.</p>
             <p style="margin-top:6px;">Prices and features sourced from official websites. Always verify on the official site. This site uses affiliate links.</p>
         </div>
     </footer>
@@ -410,11 +410,11 @@ def main():
 
 
 def generate_category_pages(tools):
-    """Generate category landing pages (avatar, text-to-video, video-gen)."""
+    """Generate category landing pages for coding tools."""
     categories = {
-        "avatar": {"title": "Best AI Avatar Tools", "desc": "Compare the top AI avatar and digital human video platforms. Best for talking-head videos, presentations, training, and marketing content."},
-        "text-to-video": {"title": "Best Text-to-Video AI Tools", "desc": "Compare the leading text-to-video and image-to-video AI generators. Best for creative video production, cinematic content, and visual effects."},
-        "video-gen": {"title": "Best AI Video Generation Tools", "desc": "Compare the top AI video generators for creating stunning videos from text prompts, images, and more. Best for cinematic content, social media videos, and creative production."}
+        "ide-assistant": {"title": "Best IDE AI Assistants", "desc": "Compare the top AI coding assistants that integrate directly into your existing IDE. Best for developers who want AI help without switching editors."},
+        "ai-native-ide": {"title": "Best AI-Native IDEs", "desc": "Compare AI-first code editors built from the ground up with AI integration. Best for developers who want the deepest AI coding experience."},
+        "cli-agent": {"title": "Best AI CLI Coding Agents", "desc": "Compare terminal-based AI coding agents that work directly in your command line. Best for developers who prefer terminal workflows."}
     }
     
     for cat_id, cat_info in categories.items():
@@ -429,7 +429,7 @@ def generate_category_pages(tools):
             vid_icon = ">>" if t.get("youtube_official") else ">>"
             rows += f"<tr><td><a href='/{t['id']}/' style='color:#1e40af;text-decoration:none;font-weight:600;'>{t['name']}</a></td><td>{price}/mo</td><td>{g2}</td><td>{vid_icon}</td></tr>"
         
-        table = f'<div class="table-container"><table><thead><tr><th>Tool</th><th>Starting Price</th><th>G2 Rating</th><th>Video</th></tr></thead><tbody>{rows}</tbody></table></div>'
+        table = f'<div class="table-container"><table><thead><tr><th>Tool</th><th>Starting Price</th><th>G2 Rating</th><th>Tutorials</th></tr></thead><tbody>{rows}</tbody></table></div>'
         
         content = f"""<section class="hero"><div class="container"><h1>{cat_info["title"]}</h1><p>{cat_info["desc"]}</p></div></section><div class="container"><h2 style="margin-top:32px;">All {cat_info["title"].replace("Best ","")}</h2>{table}</div>"""
         
