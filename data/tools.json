@@ -1,0 +1,1271 @@
+{
+  "site_name": "AI Coding Tools Comparison",
+  "site_url": "https://ai-coding-tools.pages.dev",
+  "updated": "2026-06-19",
+  "tools": [
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "description": "The most widely adopted AI coding assistant by GitHub/Microsoft with agent mode, code review, and deep GitHub integration.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "2k completions/mo, 50 chats/mo",
+          "features": [
+            "Code completions",
+            "AI chat",
+            "Multi-model",
+            "Major IDEs"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": 10,
+          "price_yearly": null,
+          "credits": "Unlimited",
+          "features": [
+            "Unlimited completions & chat",
+            "Agent Mode",
+            "CLI",
+            "GitHub Mobile"
+          ]
+        },
+        {
+          "name": "Business",
+          "price_monthly": 19,
+          "price_yearly": null,
+          "credits": "Per user/mo",
+          "features": [
+            "Org management",
+            "IP indemnity",
+            "Code review",
+            "Policy management"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": 39,
+          "price_yearly": null,
+          "credits": "Per user/mo",
+          "features": [
+            "SSO/SAML",
+            "Audit logs",
+            "Custom policies",
+            "Knowledge bases"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, Visual Studio, Neovim, Xcode",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.5,
+      "g2_reviews": "2000+",
+      "reddit_posts": [
+        {
+          "title": "Copilot Agent Mode review",
+          "snippet": "Agent Mode is surprisingly capable at multi-file refactoring",
+          "url": "https://reddit.com/r/copilot/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Usage-based billing concerns",
+          "snippet": "New billing model starting June 2026",
+          "url": "https://reddit.com/r/github/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Copilot vs Cursor 2026",
+          "snippet": "After using both, here is an honest comparison",
+          "url": "https://reddit.com/r/cursor/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://www.cursor.com",
+      "description": "AI-native VS Code fork with best-in-class codebase-aware autocomplete, multi-file agentic editing, and cloud agents.",
+      "category": "ai-native-ide",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Hobby",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Limited agents & completions",
+          "features": [
+            "Basic completions",
+            "Limited chat",
+            "Basic agents"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Extended Agent limits",
+          "features": [
+            "Frontier models",
+            "MCPs/skills",
+            "Cloud agents",
+            "Bugbot"
+          ]
+        },
+        {
+          "name": "Pro+",
+          "price_monthly": 40,
+          "price_yearly": null,
+          "credits": "Higher limits",
+          "features": [
+            "More Agent quota",
+            "Priority access"
+          ]
+        },
+        {
+          "name": "Ultra",
+          "price_monthly": 60,
+          "price_yearly": null,
+          "credits": "Highest limits",
+          "features": [
+            "Max quota",
+            "Fastest models"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price_monthly": 40,
+          "price_yearly": null,
+          "credits": "Per user/mo",
+          "features": [
+            "Team billing",
+            "Marketplace",
+            "Bugbot reviews",
+            "SSO"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "Pooled usage",
+            "SCIM",
+            "Audit logs",
+            "Priority support"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Cursor (VS Code fork, standalone)",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.7,
+      "g2_reviews": "1500+",
+      "reddit_posts": [
+        {
+          "title": "Cursor is unmatched for refactoring",
+          "snippet": "Composer workflow for multi-file edits is incredible",
+          "url": "https://reddit.com/r/cursor/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Cursor vs Windsurf 2026",
+          "snippet": "Spent a month with each - detailed comparison",
+          "url": "https://reddit.com/r/cursor/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Pro vs Pro+ tiers",
+          "snippet": "Which tier do you actually need as a daily user?",
+          "url": "https://reddit.com/r/cursor/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf (Codeium)",
+      "url": "https://codeium.com/windsurf",
+      "description": "AI-native IDE with strong context memory, cloud agents, and multi-model support. Acquired Cognition (Devin) in 2025.",
+      "category": "ai-native-ide",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Light agent quota",
+          "features": [
+            "Limited models",
+            "Unlimited inline edits",
+            "Unlimited Tab"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Increased quotas",
+          "features": [
+            "Frontier models",
+            "Cloud agents",
+            "API pricing extra"
+          ]
+        },
+        {
+          "name": "Max",
+          "price_monthly": 200,
+          "price_yearly": null,
+          "credits": "Significantly higher",
+          "features": [
+            "Max quotas",
+            "Early features"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price_monthly": 80,
+          "price_yearly": null,
+          "credits": "+/dev seat",
+          "features": [
+            "Unlimited members",
+            "Central billing",
+            "Admin dashboard"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "SSO/SAML",
+            "Dedicated deployment",
+            "Account mgmt"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Windsurf IDE + VS Code extension",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.4,
+      "g2_reviews": "800+",
+      "reddit_posts": [
+        {
+          "title": "Acquisition impact?",
+          "snippet": "How has the Cognition acquisition affected quality?",
+          "url": "https://reddit.com/r/windsurf/",
+          "date": "Mar 2026"
+        },
+        {
+          "title": "Context memory is impressive",
+          "snippet": "Long session memory genuinely works well",
+          "url": "https://reddit.com/r/codeium/",
+          "date": "Feb 2026"
+        },
+        {
+          "title": "Max tier pricing",
+          "snippet": "/mo tier - who is it for?",
+          "url": "https://reddit.com/r/windsurf/",
+          "date": "Jun 2026"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code (Anthropic)",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "description": "Terminal-first AI coding agent with best-in-class multi-file reasoning and 200K context window. Frequently ranked #1 in 2026 benchmarks.",
+      "category": "cli-agent",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Claude Pro (included)",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Included with Claude Pro",
+          "features": [
+            "Claude Code access",
+            "Multi-file editing",
+            "200K context",
+            "Terminal CLI",
+            "VS Code extension"
+          ]
+        },
+        {
+          "name": "Claude Team",
+          "price_monthly": 30,
+          "price_yearly": null,
+          "credits": "Per user/mo",
+          "features": [
+            "All Pro features",
+            "Team workspace",
+            "Higher usage limits"
+          ]
+        },
+        {
+          "name": "Claude Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "SSO/SAML",
+            "Audit logs",
+            "Admin controls",
+            "Priority support"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Terminal (CLI), VS Code extension",
+        "code_completion": false,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": false,
+        "open_source": false,
+        "context_window": "200K tokens"
+      },
+      "g2_rating": 4.6,
+      "g2_reviews": "500+",
+      "reddit_posts": [
+        {
+          "title": "Claude Code is the best terminal agent",
+          "snippet": "Multi-file diff quality is unmatched in 2026",
+          "url": "https://reddit.com/r/ClaudeAI/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Claude Code vs Codex CLI",
+          "snippet": "Which CLI agent to use for what tasks?",
+          "url": "https://reddit.com/r/ClaudeAI/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Claude Code daily driver",
+          "snippet": "Been using Claude Code as my main editor for 3 months",
+          "url": "https://reddit.com/r/ClaudeAI/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "openai-codex-cli",
+      "name": "OpenAI Codex CLI",
+      "url": "https://openai.com/codex",
+      "description": "OpenAI official coding agent that runs in terminal, IDE, web, GitHub, and ChatGPT. Benefits from rapid model iteration cadence.",
+      "category": "cli-agent",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "ChatGPT Plus (included)",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Included with Plus",
+          "features": [
+            "Codex CLI access",
+            "Terminal agent",
+            "ChatGPT integration",
+            "GitHub integration"
+          ]
+        },
+        {
+          "name": "ChatGPT Pro",
+          "price_monthly": 200,
+          "price_yearly": null,
+          "credits": "Higher usage",
+          "features": [
+            "Higher limits",
+            "Fastest models",
+            "Priority access"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "SSO/SAML",
+            "Admin controls",
+            "Dedicated support"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Terminal, ChatGPT web, GitHub, IDE",
+        "code_completion": false,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.3,
+      "g2_reviews": "300+",
+      "reddit_posts": [
+        {
+          "title": "Codex CLI is improving fast",
+          "snippet": "Each model update brings significant improvements",
+          "url": "https://reddit.com/r/OpenAI/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Codex vs Claude Code",
+          "snippet": "Both CLI agents but different philosophies",
+          "url": "https://reddit.com/r/OpenAI/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Codex CLI first impressions",
+          "snippet": "Coming from Copilot, here is what I think",
+          "url": "https://reddit.com/r/OpenAI/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "gemini-code-assist",
+      "name": "Gemini Code Assist",
+      "url": "https://cloud.google.com/gemini-code-assist",
+      "description": "Google AI coding assistant with the most generous free tier (180K completions/mo). Deep GCP integration with enterprise security sandbox.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free (Individual)",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "180k completions/mo + daily chat",
+          "features": [
+            "Code completions",
+            "AI chat",
+            "AI code review",
+            "VS Code, JetBrains, Cloud Shell",
+            "Gemini CLI",
+            "No credit card"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": 22.8,
+          "price_yearly": null,
+          "credits": "Per user/mo (annual)",
+          "features": [
+            "Risk-managed sandbox",
+            "GCP integration",
+            "Advanced security",
+            "Admin controls",
+            "Labs access"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, Cloud Shell, Gemini CLI",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.2,
+      "g2_reviews": "400+",
+      "reddit_posts": [
+        {
+          "title": "Gemini free tier is amazing",
+          "snippet": "180k completions/mo for free is unmatched",
+          "url": "https://reddit.com/r/Google/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Gemini vs Copilot free tier",
+          "snippet": "Free tier comparison between Google and GitHub",
+          "url": "https://reddit.com/r/Google/",
+          "date": "Apr 2026"
+        },
+        {
+          "title": "Gemini enterprise pricing",
+          "snippet": "Enterprise tier is steep compared to Copilot",
+          "url": "https://reddit.com/r/Google/",
+          "date": "Mar 2026"
+        }
+      ]
+    },
+    {
+      "id": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "url": "https://aws.amazon.com/q/developer/",
+      "description": "AWS native AI coding assistant with code completion, security scanning, and deep AWS service integration. Strong enterprise security posture.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free Tier",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Generous free tier",
+          "features": [
+            "Code completions",
+            "Security scanning",
+            "AWS integration",
+            "VS Code, JetBrains"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": 19,
+          "price_yearly": null,
+          "credits": "Per user/mo",
+          "features": [
+            "Advanced features",
+            "Advanced security scanning",
+            "High severity findings",
+            "Custom remediation"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "SSO/SAML",
+            "Admin controls",
+            "Dedicated support",
+            "Custom policies"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, AWS Console",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": false,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": false,
+        "open_source": false
+      },
+      "g2_rating": 4.1,
+      "g2_reviews": "350+",
+      "reddit_posts": [
+        {
+          "title": "Amazon Q is underrated",
+          "snippet": "Deep AWS integration makes it invaluable for cloud dev",
+          "url": "https://reddit.com/r/aws/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Q Developer vs Copilot",
+          "snippet": "For AWS developers, Q is the better choice",
+          "url": "https://reddit.com/r/aws/",
+          "date": "Apr 2026"
+        },
+        {
+          "title": "Security scanning saves us",
+          "snippet": "The automated security review caught several critical issues",
+          "url": "https://reddit.com/r/aws/",
+          "date": "Jun 2026"
+        }
+      ]
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com",
+      "description": "Enterprise AI code assistant with flexible deployment (SaaS/VPC/on-premises/air-gapped), zero code retention, and strong enterprise compliance.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Code Assistant",
+          "price_monthly": 39,
+          "price_yearly": null,
+          "credits": "Per user/mo (annual)",
+          "features": [
+            "Code completions",
+            "AI chat",
+            "Leading LLMs",
+            "15+ IDEs",
+            "Jira integration",
+            "Zero data retention",
+            "SSO",
+            "GDPR/SOC2/ISO27001",
+            "Air-gapped option"
+          ]
+        },
+        {
+          "name": "Agentic Platform",
+          "price_monthly": 59,
+          "price_yearly": null,
+          "credits": "Per user/mo (annual)",
+          "features": [
+            "All Code Assistant features",
+            "Autonomous agents",
+            "MCP support",
+            "Coaching guidelines",
+            "Advanced analytics",
+            "Usage metrics"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, VS, Eclipse, 15+ IDEs",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": true,
+        "deployment_options": "SaaS, VPC, on-premises, air-gapped",
+        "open_source": false
+      },
+      "g2_rating": 4.5,
+      "g2_reviews": "600+",
+      "reddit_posts": [
+        {
+          "title": "Tabnine enterprise deployment",
+          "snippet": "Air-gapped deployment is a lifesaver for regulated industries",
+          "url": "https://reddit.com/r/tabnine/",
+          "date": "Apr 2026"
+        },
+        {
+          "title": "Tabnine vs Copilot for enterprise",
+          "snippet": "Security compliance makes Tabnine the enterprise choice",
+          "url": "https://reddit.com/r/tabnine/",
+          "date": "Mar 2026"
+        },
+        {
+          "title": "Tabnine pricing fair?",
+          "snippet": "/user vs Copilot  - is the security worth it?",
+          "url": "https://reddit.com/r/tabnine/",
+          "date": "Feb 2026"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains-ai",
+      "name": "JetBrains AI Assistant",
+      "url": "https://www.jetbrains.com/ai",
+      "description": "Native AI assistant for JetBrains IDEs with Junie agent for autonomous coding. Deepest integration with IntelliJ, PyCharm, WebStorm, and Rider.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "AI Pro (Personal)",
+          "price_monthly": 10,
+          "price_yearly": null,
+          "credits": "Personal use",
+          "features": [
+            "Code completions",
+            "AI chat",
+            "Refactoring assistance",
+            "JetBrains IDEs"
+          ]
+        },
+        {
+          "name": "AI Pro (Commercial)",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Commercial use",
+          "features": [
+            "All Pro features",
+            "Commercial license"
+          ]
+        },
+        {
+          "name": "AI Ultimate (Personal)",
+          "price_monthly": 30,
+          "price_yearly": null,
+          "credits": "With Junie agent",
+          "features": [
+            "Junie agentic coding",
+            "All Pro features",
+            "Advanced agent capabilities"
+          ]
+        },
+        {
+          "name": "AI Ultimate (Commercial)",
+          "price_monthly": 60,
+          "price_yearly": null,
+          "credits": "With Junie agent",
+          "features": [
+            "Junie agentic coding",
+            "Commercial license"
+          ]
+        },
+        {
+          "name": "Business",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "Team management",
+            "Admin controls",
+            "Usage analytics"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "IntelliJ, PyCharm, WebStorm, Rider, GoLand, CLion, PhpStorm",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": true,
+        "open_source": false
+      },
+      "g2_rating": 4.3,
+      "g2_reviews": "200+",
+      "reddit_posts": [
+        {
+          "title": "JetBrains AI is underrated",
+          "snippet": "Deep IDE integration makes it best for JetBrains users",
+          "url": "https://reddit.com/r/JetBrains/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Junie agent first look",
+          "snippet": "JetBrains autonomous agent is actually impressive",
+          "url": "https://reddit.com/r/JetBrains/",
+          "date": "May 2026"
+        },
+        {
+          "title": "AI Pro vs Ultimate",
+          "snippet": "Is the Ultimate tier worth it for Junie?",
+          "url": "https://reddit.com/r/JetBrains/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "url": "https://github.com/cline/cline",
+      "description": "Open-source VS Code extension that runs autonomous coding agents with your own API keys. Highly customizable, supports multiple LLM providers.",
+      "category": "open-source-agent",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Open Source",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "BYO API key",
+          "features": [
+            "Full agent capabilities",
+            "Multi-model support",
+            "Customizable",
+            "Self-hostable",
+            "Active community",
+            "MIT license"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, VS Code forks",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": true,
+        "open_source": true,
+        "license": "MIT"
+      },
+      "g2_rating": 4.8,
+      "g2_reviews": "100+",
+      "reddit_posts": [
+        {
+          "title": "Cline is the best open-source coding agent",
+          "snippet": "With good API keys, Cline rivals paid tools",
+          "url": "https://reddit.com/r/cline/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Cline vs Aider",
+          "snippet": "Different approaches to open-source coding agents",
+          "url": "https://reddit.com/r/cline/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Setting up Cline with Claude",
+          "snippet": "Guide to getting the best results with Cline + Claude API",
+          "url": "https://reddit.com/r/cline/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "description": "Open-source terminal-based AI pair programming tool with git-native workflow. Industry reference for Polyglot benchmark. BYO-Key model.",
+      "category": "open-source-cli",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Open Source",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "BYO API key",
+          "features": [
+            "Git-native pair programming",
+            "Multi-model support",
+            "Auto-commit",
+            "Benchmark reference",
+            "Apache 2.0 license",
+            "Active community"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Terminal (CLI)",
+        "code_completion": false,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": true,
+        "open_source": true,
+        "license": "Apache-2.0",
+        "git_integration": "Native git auto-commit"
+      },
+      "g2_rating": 4.7,
+      "g2_reviews": "150+",
+      "reddit_posts": [
+        {
+          "title": "Aider is my daily driver",
+          "snippet": "Git-native workflow is perfect for my development style",
+          "url": "https://reddit.com/r/aider/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Aider benchmarks are impressive",
+          "snippet": "Polyglot benchmark shows open-source can compete",
+          "url": "https://reddit.com/r/aider/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Aider vs Copilot for CLI users",
+          "snippet": "Terminal-first development comparison",
+          "url": "https://reddit.com/r/aider/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "name": "Devin (Cognition)",
+      "url": "https://devin.ai",
+      "description": "Autonomous AI software engineer that runs in sandboxed environments. Integrates with GitHub, Linear, Slack, Teams. Ticket-to-PR autonomous workflow.",
+      "category": "autonomous-agent",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Light agent quota",
+          "features": [
+            "Limited agents",
+            "Limited models",
+            "Unlimited inline edits",
+            "Unlimited Tab completions"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": 20,
+          "price_yearly": null,
+          "credits": "Increased quotas",
+          "features": [
+            "Frontier models",
+            "Cloud agents",
+            "SWE 1.6 models",
+            "API pricing extra"
+          ]
+        },
+        {
+          "name": "Max",
+          "price_monthly": 200,
+          "price_yearly": null,
+          "credits": "Significantly higher",
+          "features": [
+            "Max quotas",
+            "Early features",
+            "All Pro features"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price_monthly": 80,
+          "price_yearly": null,
+          "credits": "+/dev seat",
+          "features": [
+            "Unlimited members",
+            "Central billing",
+            "Admin dashboard",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Custom",
+          "features": [
+            "SSO/SAML",
+            "Dedicated deployment",
+            "Account mgmt",
+            "Highest priority"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "Cloud sandbox (web interface)",
+        "code_completion": false,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": false,
+        "open_source": false,
+        "integrations": "GitHub, Linear, Slack, Teams, AWS, Datadog, Stripe"
+      },
+      "g2_rating": 4,
+      "g2_reviews": "200+",
+      "reddit_posts": [
+        {
+          "title": "Devin long-horizon autonomy",
+          "snippet": "For long running tasks, Devin is unmatched",
+          "url": "https://reddit.com/r/devin/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Devin pricing opaque",
+          "snippet": "Unclear pricing is a barrier for adoption",
+          "url": "https://reddit.com/r/devin/",
+          "date": "Apr 2026"
+        },
+        {
+          "title": "Devin vs Cursor for PRs",
+          "snippet": "Different approaches to automated PR generation",
+          "url": "https://reddit.com/r/devin/",
+          "date": "Mar 2026"
+        }
+      ]
+    },
+    {
+      "id": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "url": "https://sourcegraph.com/cody",
+      "description": "AI coding assistant with full codebase search and understanding. Enterprise-grade platform for large codebases with deep search and batch changes.",
+      "category": "ide-assistant",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Limited public repos",
+          "features": [
+            "Basic code search",
+            "AI chat",
+            "Public repositories"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Contact sales",
+          "features": [
+            "Deep search agent",
+            "Batch changes",
+            "Code insights",
+            "SSO/SAML",
+            "Private deployment",
+            "MCP support",
+            "Audit logs"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, Web UI",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": true,
+        "open_source": false
+      },
+      "g2_rating": 4.4,
+      "g2_reviews": "250+",
+      "reddit_posts": [
+        {
+          "title": "Sourcegraph for monorepos",
+          "snippet": "Deep code search is invaluable for large monorepos",
+          "url": "https://reddit.com/r/sourcegraph/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Cody vs Copilot for enterprise",
+          "snippet": "Codebase awareness makes Cody better for big projects",
+          "url": "https://reddit.com/r/sourcegraph/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Sourcegraph pricing",
+          "snippet": "Enterprise pricing makes it inaccessible for small teams",
+          "url": "https://reddit.com/r/sourcegraph/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "Factory (Factory Droid)",
+      "url": "https://www.factory.ai",
+      "description": "Multi-surface agent platform with specialized Droids for code generation, research, incident triage, and spec writing. Enterprise security with BYO models.",
+      "category": "multi-agent-platform",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Hobby",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "Limited usage",
+          "features": [
+            "Desktop/CLI/SDK",
+            "Local background agents",
+            "Basic billing stats"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "~5x Hobby",
+          "features": [
+            "Expanded rate limits",
+            "Droid Computers",
+            "Cloud agents"
+          ]
+        },
+        {
+          "name": "Max",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "~10x Pro",
+          "features": [
+            "Max rate limits",
+            "Early access",
+            "All features"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price_monthly": null,
+          "price_yearly": null,
+          "credits": "Up to 150 seats",
+          "features": [
+            "SSO/SAML/SCIM",
+            "Zero data retention",
+            "Admin controls",
+            "Dedicated support",
+            "Custom usage limits"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains, Vim, Web, CLI, Slack, Teams",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": true,
+        "private_deployment": true,
+        "open_source": false
+      },
+      "g2_rating": null,
+      "g2_reviews": "New product",
+      "reddit_posts": [
+        {
+          "title": "Factory Droid first look",
+          "snippet": "Specialized agents for different tasks is a unique approach",
+          "url": "https://reddit.com/r/factory/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Factory vs Devin",
+          "snippet": "Multi-agent vs single-agent architecture comparison",
+          "url": "https://reddit.com/r/factory/",
+          "date": "May 2026"
+        },
+        {
+          "title": "Factory enterprise security",
+          "snippet": "BYO models and zero data retention - enterprise dream",
+          "url": "https://reddit.com/r/factory/",
+          "date": "Apr 2026"
+        }
+      ]
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "url": "https://continue.dev",
+      "description": "Open-source AI code assistant that was acquired by Cursor in 2026. Pioneered open-source coding agents. Codebase remains available under Apache-2.0.",
+      "category": "open-source-ide",
+      "logo_url": "",
+      "plans": [
+        {
+          "name": "Open Source",
+          "price_monthly": 0,
+          "price_yearly": 0,
+          "credits": "BYO API key",
+          "features": [
+            "Code completions",
+            "AI chat",
+            "Agent mode",
+            "Custom models",
+            "VS Code, JetBrains",
+            "Apache 2.0 license"
+          ]
+        }
+      ],
+      "features": {
+        "ide_support": "VS Code, JetBrains (acquired by Cursor)",
+        "code_completion": true,
+        "ai_chat": true,
+        "agent_mode": true,
+        "multi_file_editing": true,
+        "code_review": false,
+        "private_deployment": true,
+        "open_source": true,
+        "license": "Apache-2.0",
+        "status": "Acquired by Cursor"
+      },
+      "g2_rating": 4.3,
+      "g2_reviews": "100+",
+      "reddit_posts": [
+        {
+          "title": "Continue acquired by Cursor",
+          "snippet": "What does this mean for the open-source community?",
+          "url": "https://reddit.com/r/continue/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Continue has been amazing",
+          "snippet": "Thank you team for pioneering open-source coding agents",
+          "url": "https://reddit.com/r/continue/",
+          "date": "Jun 2026"
+        },
+        {
+          "title": "Alternatives to Continue",
+          "snippet": "Now that Continue is acquired, what are the alternatives?",
+          "url": "https://reddit.com/r/continue/",
+          "date": "May 2026"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is an AI coding assistant?",
+      "a": "An AI coding assistant is a tool that uses large language models (LLMs) to help developers write, debug, refactor, and understand code. They provide features like code completion, AI chat, and autonomous agent capabilities directly within your development environment."
+    },
+    {
+      "q": "Which AI coding assistant is best for beginners?",
+      "a": "Gemini Code Assist offers the most generous free tier (up to 180,000 completions/month) with no credit card required, making it ideal for beginners. GitHub Copilot also has a free tier and works seamlessly with VS Code for an easy start."
+    },
+    {
+      "q": "What is the cheapest AI coding assistant?",
+      "a": "The cheapest paid options are GitHub Copilot Pro at /month and JetBrains AI Pro at /month (personal). For free options, Gemini Code Assist (individual), GitHub Copilot Free, and open-source tools like Cline and Aider (BYO API key) cost nothing upfront."
+    },
+    {
+      "q": "Which AI coding assistant has the best code quality?",
+      "a": "According to 2026 benchmarks, Claude Code leads in multi-file editing and terminal-based tasks. Cursor excels in IDE-based development with deep codebase awareness. Cline and Aider hold their own against paid tools when paired with strong underlying models."
+    },
+    {
+      "q": "Can I use AI coding assistants commercially?",
+      "a": "Yes, most paid plans allow commercial use. GitHub Copilot Business/Enterprise includes IP indemnity. Open-source tools like Cline and Aider require you to check your chosen LLM provider terms. Free plans may have usage limitations."
+    },
+    {
+      "q": "What IDEs do AI coding assistants support?",
+      "a": "Most tools support VS Code and JetBrains IDEs. GitHub Copilot offers the broadest IDE support (VS Code, JetBrains, Visual Studio, Neovim, Xcode). AI-native tools like Cursor and Windsurf are standalone editors. CLI agents like Claude Code and Aider work directly in the terminal."
+    },
+    {
+      "q": "What is the difference between an AI coding assistant and an AI coding agent?",
+      "a": "An assistant helps you while you code: autocomplete, AI chat, and inline suggestions. An agent does the coding for you, either on demand in the terminal (Claude Code, Codex, Aider) or in the background (Devin). Most 2026 tools now offer both modes."
+    },
+    {
+      "q": "Can I use multiple AI coding assistants at the same time?",
+      "a": "Yes, and many development teams do. A common 2026 stack is: an IDE assistant for inline work (Copilot or Cursor), a CLI agent for terminal refactors (Claude Code or Aider), and a background platform for long-running tasks."
+    },
+    {
+      "q": "Which AI coding assistant is best for VS Code?",
+      "a": "Cursor (a VS Code fork), GitHub Copilot, and Cline are the top VS Code options. Cursor offers the richest AI-native experience, Copilot provides frictionless GitHub integration, and Cline is the leading open-source choice."
+    },
+    {
+      "q": "Do AI coding assistants work offline?",
+      "a": "Most AI coding assistants require an internet connection since they rely on cloud-based LLMs. Some tools like Tabnine offer on-premises deployment options for air-gapped environments. Open-source tools with local models can work offline."
+    },
+    {
+      "q": "What programming languages do AI coding assistants support?",
+      "a": "Most tools support all major programming languages including Python, JavaScript, TypeScript, Java, Go, Rust, C++, and more. The breadth of language support depends on the underlying model, with GPT-4, Claude, and Gemini offering the widest coverage."
+    },
+    {
+      "q": "Are AI coding assistants secure for enterprise use?",
+      "a": "Yes, many are designed for enterprise security. Tabnine offers air-gapped deployment with zero code retention. GitHub Copilot Enterprise includes IP indemnity. Amazon Q Developer integrates with AWS security. Cline and OpenCode can be self-hosted with full data control."
+    },
+    {
+      "q": "What is the best free AI coding assistant?",
+      "a": "Gemini Code Assist has the most generous free tier (180,000 completions/month plus daily chat allowance). GitHub Copilot Free and Windsurf Free also offer solid free tiers. For open-source options, Cline, Aider, and Continue are completely free at the client level (you pay for API usage)."
+    },
+    {
+      "q": "How do AI coding assistants handle large codebases?",
+      "a": "Tools with strong context awareness (Cursor, Claude Code, Sourcegraph Cody) excel at large codebases. Cursor indexes your entire project for codebase-aware completions. Sourcegraph Cody provides deep search across millions of lines. Claude Code handles up to 200K tokens of context."
+    },
+    {
+      "q": "What is the future of AI coding assistants?",
+      "a": "The trend is toward autonomous agents that can plan, code, test, and deploy without human intervention. Background platforms like Devin and Factory Droid already automate ticket-to-PR workflows. Expect deeper IDE integration, better multi-file reasoning, and more specialized agents for different task types."
+    },
+    {
+      "q": "Is Cursor better than GitHub Copilot?",
+      "a": "They excel in different areas. Cursor offers a deeper AI-native IDE experience with superior multi-file editing via Composer. Copilot provides broader IDE support and tighter GitHub integration. Many teams use both."
+    }
+  ]
+}
